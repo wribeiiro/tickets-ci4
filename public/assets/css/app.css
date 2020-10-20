@@ -1,0 +1,61 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px !important;
+}
+
+.bg-gray {
+    background: #535353 !important;
+}
+
+.btn-gray {
+    background: #535353 !important;
+    color: #fff;
+}
+
+.bg-vue {
+    background: #41B883 !important;
+    border: #41B883 solid 1px !important;
+}
+
+.btn-vue {
+    background: #41B883 !important;
+    border: #41B883 solid 1px !important;
+    color: #fff;
+}
+
+.border-left-vue {
+    border-left: .25rem solid #41B883 !important;
+}
+
+table>tbody>tr>td,
+table>tbody>tr>th,
+table>tfoot>tr>td,
+table>tfoot>tr>th,
+table>thead>tr>td,
+table>thead>tr>th {
+    padding: 1px !important;
+    font-size: 11px !important;
+    white-space: nowrap !important;
+    text-transform: uppercase !important;
+}
+
+table>thead>tr>th,
+table>tfoot>tr>th {
+    font-weight: bold;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after {
+    content: "" !important;
+}
+
+.dataTables_filter {
+    display: none !important;
+}
+
+.ht-300 {
+    height: 300px;
+    max-height: 100%;
+    overflow-y: auto;
+}
