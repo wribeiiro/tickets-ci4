@@ -59,7 +59,7 @@ class UsersModel extends Model
 					AND DATE_ADD(NOW(), INTERVAL 45 DAY) 
 					AND (
 						YEAR(CURDATE()) - YEAR(atendente.data_nascimento)
-					) > 0 ";
+					) > 0 ORDER BY date_birthday ASC";
         $query = $this->db->query($sql);
 		return $query->getResult();
 	}

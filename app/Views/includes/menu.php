@@ -102,7 +102,7 @@
 
 									<div>
 										<div class="small text-500">
-											<?=utf8_encode(strftime('%A, %d of %B of %Y', strtotime($bird->date_birthday)))?>
+											<?=date('d-m', strtotime($bird->date_birthday)) == date('d-m') ? 'TODAY' : utf8_encode(strftime('%A, %d of %B of %Y', strtotime($bird->date_birthday)))?>
 										</div>
 										<span class="font-weight-bold"><?=strtolower($bird->name) == strtolower(session()->get('firstname')) ? 'YOU' : $bird->name?> - Next birthday</span>
 									</div>
