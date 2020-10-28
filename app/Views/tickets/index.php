@@ -158,4 +158,5 @@
     </div>
 </div>
 
+<?=view('includes/scripts')?>
 <script src="<?= base_url('')?>/assets/js/pages/tickets.js?v=<?=JS_VERSION?>"></script>

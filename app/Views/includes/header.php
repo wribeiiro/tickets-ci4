@@ -14,8 +14,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/>
     <link href="<?= base_url('')?>/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url('')?>/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css" rel="stylesheet" />
+
     <link href="<?= base_url('')?>/assets/css/ruang-admin.min.css" rel="stylesheet">
-   
+    
     <!-- App CSS -->
     <link href="<?=base_url('')?>/assets/css/app.css?v=<?=CSS_VERSION?>" rel="stylesheet">
     <!--<link href="<?=base_url('')?>/assets/build/css/stylesheet.min.css?v=<?=CSS_VERSION?>" rel="stylesheet">-->
