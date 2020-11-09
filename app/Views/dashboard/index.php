@@ -9,6 +9,7 @@
             <div class="card">
                 <div class="card-body">
                     <form id="ticketsFilter" class="form-inline mt-2">
+                        <?= csrf_field() ?>
                         <label for="selectMes" class="sr">Filter by: </label>
                         <div class="col-md-3 mx-sm-4 col-xs-12 mb-2">
                             <div class="input-group input-group-sm">

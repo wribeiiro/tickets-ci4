@@ -33,6 +33,7 @@
                     </div>
                     <div class="modal-body">
                         <form>
+                            <?= csrf_field() ?>
                             <div class="form-group">
                                 <label for="recipient-name" class="col-form-label">Recipient:</label>
                                 <input type="text" class="form-control form-control-sm" id="recipient-name">

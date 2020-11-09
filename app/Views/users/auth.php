@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="Wellisson Ribeiro">
+	<?= csrf_meta() ?>
 	<link href="https://wribeiiro.com/tickets/assets/img/icon.png" rel="icon">
 	<title><?=$title?></title>
 	<link href="<?=base_url()?>/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -27,6 +28,7 @@
 								<h1 class="h4 text-gray-900 mb-4">Authentication</h1>
 							</div>
 							<form class="user" method="post" id="form" action="<?=base_url('login')?>">
+								<?= csrf_field() ?>
 								<?php if (isset($validation)): ?>
 									<div class="form-group">
 										<div class="alert alert-danger">

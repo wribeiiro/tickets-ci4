@@ -22,8 +22,8 @@ class Filters extends BaseConfig
 					'login',
 					'authentication/*'
 				]
-			]
-			// 'csrf',
+			],
+			'csrf'
 		],
 		'after'  => [
 			'toolbar',
