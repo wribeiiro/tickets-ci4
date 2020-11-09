@@ -80,22 +80,6 @@
         </div>
 
         <div class="col-xl-3 col-md-3 mb-4">
-            <div class="card h-100 border-left-danger">
-                <div class="card-body">
-                    <div class="row align-items-center">
-                        <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">My open tickets</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="openTickets">0</div>
-                        </div>
-                        <div class="col-auto">
-                            <i class="fas fa-ticket-alt fa-2x text-danger"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-xl-3 col-md-3 mb-4">
             <div class="card h-100 border-left-success">
                 <div class="card-body">
                     <div class="row align-items-center">
@@ -130,6 +114,22 @@
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-ticket-alt fa-2x text-warning"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card h-100 border-left-danger">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">My open tickets</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="openTickets">0</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-ticket-alt fa-2x text-danger"></i>
                         </div>
                     </div>
                 </div>
