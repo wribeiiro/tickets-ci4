@@ -33,7 +33,6 @@ class TicketsModel extends Model {
         LEFT JOIN grupo ON cliente.grupo_cod = grupo.cod
         LEFT JOIN orcamento ON chamado.orcamento_cod = orcamento.cod
         WHERE evento.atendente_cod = ? AND chamado.situacao = ? AND evento.concluido = ?
-        GROUP BY chamado.cod
         ORDER BY chamado.inicio DESC";
 
         $result = $this->db->query($sql, [session()->get('id'), 0, 0]);
@@ -66,7 +65,6 @@ class TicketsModel extends Model {
         LEFT JOIN atendente ON atendente.cod = (SELECT evento.atendente_cod FROM evento WHERE evento.chamado_cod = chamado.cod ORDER BY evento.chamado_cod DESC LIMIT 1)
         LEFT JOIN grupo ON cliente.grupo_cod = grupo.cod
         LEFT JOIN orcamento ON chamado.orcamento_cod = orcamento.cod
-        GROUP BY chamado.cod
         ORDER BY chamado.inicio DESC";
 
         $result = $this->db->query($sql);
